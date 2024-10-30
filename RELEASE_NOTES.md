@@ -1,5 +1,9 @@
 # Release Notes
 
+## Version 1.0.4
+
+        * [SER-3220] - Add health and prometheus endpoints 
+
 ## Version 1.0.3
 
         * [SER-2280] - Add transaction logs
