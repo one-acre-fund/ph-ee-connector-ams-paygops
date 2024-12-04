@@ -140,7 +140,6 @@ public class PaygopsRouteBuilder extends RouteBuilder {
         from("direct:transfer-validation")
                 .id("transfer-validation")
                 .log(LoggingLevel.INFO, "## Starting Paygops Validation route")
-                .log(LoggingLevel.INFO, "Bearer token is - " + accessToken)
                 .removeHeader("*")
                 .setHeader(Exchange.HTTP_METHOD, constant("POST"))
                 .setHeader("Authorization", simple("Bearer "+ accessToken))
