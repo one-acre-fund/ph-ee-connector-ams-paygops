@@ -3,6 +3,7 @@
 ## Version 1.0.4
 
         * [SER-3220] - Add health and prometheus endpoints 
+        * [SER-3266] - Remove token exposed in logs
 
 ## Version 1.0.3
 
